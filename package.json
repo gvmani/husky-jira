@@ -3,6 +3,7 @@
   "version": "2.0.0-2",
   "description": "A simple git commit and JIRA ID validator using husky",
   "main": "index.js",
+  "bin": "bin/index.js",
   "scripts": {
     "test": "\"\""
   },
@@ -15,7 +16,10 @@
   "author": "gv",
   "license": "MIT",
   "dependencies": {
-    "husky": "^3.0.9",
+    "chalk": "^2.4.2",
+    "husky": "^3.0.9"
+  },
+  "devDependencies": {
     "np": "^5.1.1"
   }
 }
